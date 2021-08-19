@@ -5,12 +5,15 @@
     font-weight: lighter;
     display: flex;
 }
-.col, .col-2{
+.col, .col-2, .col-3{
     flex: 1;
     padding: 10px;
     margin: 15px;
     background-color: rgb(101,162,172);
 }
-.col{
+.col-2{
     flex: 2;
+}
+.col-3{
+    flex: 3;
 }
