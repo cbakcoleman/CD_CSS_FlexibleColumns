@@ -5,9 +5,12 @@
     font-weight: lighter;
     display: flex;
 }
-.col{
+.col, .col-2{
     flex: 1;
     padding: 10px;
     margin: 15px;
     background-color: rgb(101,162,172);
+}
+.col{
+    flex: 2;
 }
